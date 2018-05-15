@@ -4,7 +4,7 @@
 
   $link = mysqli_connect("localhost","root","","db_finder");
 		$pesquisar = $_POST['pesquisar'];
-	$resultado=mysqli_query($link,"SELECT * FROM categoria WHERE titulo like '%"."$pesquisar"."%' LIMIT 8");
+	$resultado=mysqli_query($link,"SELECT * FROM finder WHERE Titulo like '%"."$pesquisar"."%' LIMIT 8");
 	$linhas=mysqli_num_rows($resultado);
  ?>
 
@@ -14,7 +14,7 @@
 
 
  	<div class="page-header">
- 		<h1>Lista de Cliente
+ 		<h1>Lista de Cliente</h1>
  			<div class="pull-right">
 				<form class="form-inline" method="post" action="admin.php?link=1">
 	 			 <div class="form-group">

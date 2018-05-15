@@ -9,7 +9,7 @@
  ?>
 <div class="container theme-showcase" role="main">
 <div class="page-header">
-  <h1>Seu Negocio
+  <h1>Seu Negocio</h1>
     <div class="pull-right">
       <form class="form-inline" method="post" action="admin.php?link=1">
        <div class="form-group">
@@ -20,7 +20,8 @@
      </form>
    </div>
 </div>
-	</div>
+  </div>
+  
 <a href="http://localhost/teste_finder/login.php"><button>admin</button></a>
 
 </div>

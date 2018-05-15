@@ -1,10 +1,9 @@
 <?php
   session_start();
   include("seguranca.php");
-	include("conexao.php");
-
-
+  include("conexao.php");
 ?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
@@ -29,7 +28,6 @@
 
 
       $pag[1] = "buscar.php";
-      $pag[22] = "bemvindo.php";
       $pag[23] = "sair.php";
 
 
